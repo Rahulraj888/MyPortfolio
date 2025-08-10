@@ -52,26 +52,19 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
-
       <div class="container" data-aos="zoom-out">
-        <div class="row justify-content-center">
-          <div class="col-lg-9">
-            <h2>Rahul Reddaveni</h2>
-            <p>I'm <span class="typed" data-typed-items="Backend Developer, Full Stack Developer">Android Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-            <div class="social-links">
-              <a href="https://www.linkedin.com/in/rahul-reddaveni-19b118209/"><i class="bi bi-linkedin"></i></a>
-              <a href="https://github.com/Rahulraj888"><i class="bi bi-github"></i></a>
-              <a href="reddavenirahul@gmail.com "><i class="bi bi-envelope-fill"></i></a> <!-- Gmail -->
-              <a href="https://leetcode.com/u/reddavenirahul/"><i class="bi bi-code-slash"></i></a> <!-- LeetCode (Use custom icon) -->
-              <!-- <a href="#"><i class="bi bi-google"></i></a> Google Developer -->
-              <a href="https://www.hackerrank.com/profile/reddavenirahul"><i class="bi bi-terminal"></i></a> <!-- HackerRank -->
-
-            </div>
-          </div>
+        <h2>Rahul Reddaveni</h2>
+        <p>I'm <span class="typed" data-typed-items="Backend Developer, Full Stack Developer">Android Developer</span></p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/rahul-reddaveni-19b118209/"><i class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/Rahulraj888"><i class="bi bi-github"></i></a>
+          <a href="mailto:reddavenirahul@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+          <a href="https://leetcode.com/u/reddavenirahul/"><i class="bi bi-code-slash"></i></a>
+          <a href="https://www.hackerrank.com/profile/reddavenirahul"><i class="bi bi-terminal"></i></a>
         </div>
       </div>
-
-    </section><!-- /Hero Section -->
+    </section>
+    
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -100,7 +93,7 @@
               </div>
             </div>
             <p class="py-3">
-              I am a results-driven software engineer with 3.5 years of experience in Android, web, and cloud-based development, seeking a challenging role to leverage my expertise in developing innovative software solutions. Passionate about building scalable applications, optimizing system performance, and leveraging cloud technologies to drive innovation. Dedicated to delivering high-quality code and collaborating in agile environments to solve complex technical challenges. Eager to contribute to a forward-thinking organization by driving business growth through cutting-edge software projects.
+              I am an experienced Android developer with 3.5 years of professional expertise, including impactful work at Samsung R&D Institute on the Samsung Health application, a cross-platform health app with over 64 million users worldwide. Skilled in Java, Kotlin, Android Jetpack, coroutines, and Flow, I have developed scalable features, optimized data layers, and integrated mobile and wearable health data. Passionate about building high-quality, user-focused applications, enhancing system performance, and collaborating in agile environments to solve complex technical challenges. Eager to contribute to innovative Android projects that make a meaningful impact.
             </p>
           </div>
         </div>
@@ -446,111 +439,149 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <p>A selection of Android, Frontend, Backend, and ML projects.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
+          <!-- Filters -->
           <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
+            <li data-filter=".filter-android">Android</li>
+            <li data-filter=".filter-frontend">Frontend</li>
+            <li data-filter=".filter-backend">Backend</li>
+            <li data-filter=".filter-ml">ML</li>
+            <li data-filter=".filter-other">Other</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
+            <!-- ANDROID -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-android">
+              <img src="assets/img/masonry-portfolio/vrsitmobile.png" class="img-fluid" alt="VRS-IT Android App">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>VRS‑IT Android App</h4>
+                <p>Kotlin • Room • Retrofit</p>
+                <a href="assets/img/masonry-portfolio/vrsitmobile.png" title="VRS‑IT Android App" data-gallery="portfolio-gallery-android" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/VRS-IT" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
+            <!-- FRONTEND -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-frontend">
+              <img src="assets/img/masonry-portfolio/crd-frontend.png" class="img-fluid" alt="CrowdRepair Frontend">
               <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>CrowdRepair Frontend</h4>
+                <p>React • Vite • Mapbox</p>
+                <a href="assets/img/masonry-portfolio/crd-frontend.png" title="CrowdRepair Frontend" data-gallery="portfolio-gallery-frontend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/MobileAppzFrontend" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-frontend">
+              <img src="assets/img/masonry-portfolio/vrs-it-frontend.png" class="img-fluid" alt="VRS-IT React Frontend">
               <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>VRS‑IT React Frontend</h4>
+                <p>React • Bootstrap • Axios</p>
+                <a href="assets/img/masonry-portfolio/vrs-it-frontend.png" title="VRS‑IT React Frontend" data-gallery="portfolio-gallery-frontend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/VRS-IT-React" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-frontend">
+              <img src="assets/img/masonry-portfolio/ecom-frontend.png" class="img-fluid" alt="E‑commerce Website">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>E‑commerce Website</h4>
+                <p>HTML • CSS • JS</p>
+                <a href="assets/img/masonry-portfolio/ecom-frontend.png" title="E‑commerce Website" data-gallery="portfolio-gallery-frontend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/EcomWebsite" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-frontend">
+              <img src="assets/img/masonry-portfolio/rrr.png" class="img-fluid" alt="Static Frontend Project">
               <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>Refined Reside Realty</h4>
+                <p>HTML • CSS • Bootstrap</p>
+                <a href="assets/img/masonry-portfolio/rrr.png" title="Refined Reside Realty" data-gallery="portfolio-gallery-frontend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/FrontEndProject-G" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
+            <!-- BACKEND -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend">
+              <img src="assets/img/masonry-portfolio/crd-backend.png" class="img-fluid" alt="CrowdRepair Backend">
               <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>CrowdRepair Backend</h4>
+                <p>Node • Express • MongoDB • Redis</p>
+                <a href="assets/img/masonry-portfolio/crd-backend.png" title="CrowdRepair Backend" data-gallery="portfolio-gallery-backend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/MobileAppzBackend" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend">
+              <img src="assets/img/masonry-portfolio/vrs-it-backend.png" class="img-fluid" alt="VRS-IT Backend">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>VRS‑IT Backend</h4>
+                <p>Node • Express • MongoDB</p>
+                <a href="assets/img/masonry-portfolio/vrs-it-backend.png" title="VRS‑IT Backend" data-gallery="portfolio-gallery-backend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/VRS-IT-Backend" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend">
+              <img src="assets/img/masonry-portfolio/url-shortener.png" class="img-fluid" alt="URL Shortener">
               <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>URL Shortener</h4>
+                <p>Node • Express • MongoDB</p>
+                <a href="assets/img/masonry-portfolio/url-shortener.png" title="URL Shortener" data-gallery="portfolio-gallery-backend" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/URLShortener" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
+            <!-- ML -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml">
+              <img src="assets/img/masonry-portfolio/crd-ml.png" class="img-fluid" alt="CrowdRepair ML Service">
               <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <h4>CrowdRepair ML Service</h4>
+                <p>Flask • DBSCAN • GeoJSON</p>
+                <a href="assets/img/masonry-portfolio/crd-ml.png" title="CrowdRepair ML Service" data-gallery="portfolio-gallery-ml" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/MobileAppzML" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div><!-- End Item -->
+
+            <!-- OTHER -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
+              <img src="assets/img/masonry-portfolio/weatherdashboard.png" class="img-fluid" alt="Weather Dashboard (Python)">
+              <div class="portfolio-info">
+                <h4>Weather Dashboard</h4>
+                <p>Python • Tkinter • SQLite</p>
+                <a href="assets/img/masonry-portfolio/weatherdashboard.png" title="Weather Dashboard" data-gallery="portfolio-gallery-other" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/WeatherDashboardProject" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
+              <img src="assets/img/masonry-portfolio/bike_rental.png" class="img-fluid" alt="Car & Bike Rental (Java)">
+              <div class="portfolio-info">
+                <h4>Car & Bike Rental</h4>
+                <p>Java • JSP/Servlets • MySQL</p>
+                <a href="assets/img/masonry-portfolio/bike_rental.png" title="Car & Bike Rental" data-gallery="portfolio-gallery-other" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/CarBikeRental" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
+              <img src="assets/img/masonry-portfolio/student_management.png" class="img-fluid" alt="Student DB Management (Java)">
+              <div class="portfolio-info">
+                <h4>Student DB Management</h4>
+                <p>Java • JDBC • MySQL</p>
+                <a href="assets/img/masonry-portfolio/student_management.png" title="Student DB Management" data-gallery="portfolio-gallery-other" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="https://github.com/Rahulraj888/StudentDatabaseManagementJava" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Item -->
 
           </div><!-- End Portfolio Container -->
 
@@ -569,7 +600,7 @@
         <h2>Contact</h2>
         <h3>Email: reddavenirahul@gmail.com</h3>
         <div class="text-center mt-4">
-          <p class="small">Prefer LinkedIn? <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank">Message me there</a>.</p>
+          <p class="small">Prefer LinkedIn? <a href="https://www.linkedin.com/in/rahul-reddaveni-19b118209/" target="_blank">Message me there</a>.</p>
         </div>
       </div><!-- End Section Title -->
 
@@ -583,22 +614,11 @@
       <h3 class="sitename">Rahul Reddaveni</h3>
       <p>Thank you for going through my portfolio. Let us get connected in LinkedIn</p>
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/rahul-reddaveni-19b118209/"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
           <span>Copyright</span> <strong class="px-1 sitename">Rahul Reddaveni</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </div>
