@@ -569,18 +569,23 @@ section,
 }
 
 .hero .social-links a {
-  font-size: 20px;
-  display: inline-block;
-  /* color: color-mix(in srgb, var(--default-color), transparent 30%); */
-  color: #060606;
-  line-height: 1;
-  margin-right: 20px;
-  transition: 0.3s;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  transition: transform .2s;
+  color: inherit;
 }
 
 .hero .social-links a:hover {
-  color: var(--accent-color);
+  transform: scale(1.1);
 }
+
+/* now color by icon class */
+.hero .social-links i.bi-linkedin      { color: #0A66C2; }
+.hero .social-links i.bi-github        { color: #181717; }
+.hero .social-links i.bi-envelope-fill { color: #D44638; }
+.hero .social-links i.bi-code-slash    { color: #FFA116; }
+.hero .social-links i.bi-terminal      { color: #2EC866; }
+
 
 @media (max-width: 768px) {
   .hero h2 {
@@ -729,11 +734,12 @@ section,
 }
 
 .resume .resume-item img {
-  width: 120px;
-  height: 100px;
-  object-fit: cover;
-  display: block; /* Ensures proper alignment */
-  margin: 0 auto; /* Centers the image */
+  max-width: 120px;
+  max-height: 110px;
+  object-fit: contain;
+  background-color: white;
+  padding: 4px;
+  border-radius: 8px;
 }
 
 .resume .resume-item h4 {
